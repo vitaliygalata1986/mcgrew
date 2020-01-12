@@ -1,0 +1,27 @@
+.support{
+  padding: 100px 0 300px;
+  background: #00b5d2 url(../img/support__bg.png) 50% 103.5% no-repeat;
+  text-align: center;
+    @media (max-width:992px) {
+      background-size: contain;
+      padding-top: 10vw;
+      padding-bottom: 30vw;
+    }
+    &__title{
+      color: #fff;
+      font-size: $big-text-size;
+      font-weight: 900;
+      padding: 0 10px;
+        @media (max-width:576px) {
+          font-size: 2rem;
+        }
+    }
+    &__text{
+      color: #fff;
+      font-size: $small-text-size;
+      margin-top: 30px;
+        @media (max-width:576px) {
+          padding: 0 30px;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.help{
+  padding: 70px 0 100px;
+  margin: auto;
+  max-width: 755px;
+  text-align: center;
+    @media (max-width:800px) {
+      max-width: 90%;
+    }
+    @media (max-width:576px) {
+      padding: 35px 0 60px;
+    }
+    &__title{
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: #777;
+    }
+    &__text{
+      color: #444;
+      margin: 30px 0 40px;
+        @media (max-width:576px) {
+          font-size:1rem;
+        }
+    }
+  .button{
+    padding: 17px 81px;
+    @media (max-width:576px) {
+      padding: 17px 60px;
+    }
+  }
+}
